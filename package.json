@@ -37,5 +37,6 @@
   },
   "main": "index.js",
   "author": "EXPedro <pedroelisio555@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@3.2.0"
 }
