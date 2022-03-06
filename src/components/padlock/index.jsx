@@ -5,7 +5,12 @@ const Padlock = () => {
   return(
     <>
     <div className='padlock'>
-      <h2>padlock</h2>
+      <img 
+        src='./images/cadeado_branco.svg' 
+        alt='Cadeado' 
+        width='85px' 
+        height='auto' 
+      />
     </div>  
     </>
   )
