@@ -1,10 +1,13 @@
 import React from "react";
 import './Main.css';
+import Padlock from "../padlock";
 
 const Main = () => {
   return(
     <>
-      <h2>main</h2>
+    <div className='main'>
+      <Padlock />
+    </div>  
     </>
   )
 };

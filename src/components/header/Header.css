@@ -5,7 +5,9 @@ h1{
 .header{ 
   width: 100vw;
   height: 10vh;
-  color: blue; 
-  background-color: yellow;
-  text-align: center;
+  color: #FFFFFF; 
+  background-color: #EDAF97;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,3 +1,12 @@
 h2{
   margin: 0px;
 }
+
+.main{
+  height: 90vh;
+  background-color: #C49792;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
