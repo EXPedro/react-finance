@@ -3,3 +3,8 @@ body {
   padding: 0px !important;
 }
 
+:root {
+  --primaryColor: #010A4F;
+  --textColor: #FFFFFF;
+}
+

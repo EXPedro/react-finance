@@ -4,8 +4,12 @@ h2{
 
 .main{
   height: 90vh;
-  background-color: #EDAF97;
-  color: #FFFFFF;
+  background-image: url('/public/images/bull_bear.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: var(--textColor);
+  background-color: var(--primaryColor);
   display: flex;
   justify-content: center;
   align-items: center;

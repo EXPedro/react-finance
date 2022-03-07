@@ -5,8 +5,8 @@ h1{
 .header{ 
   width: 100vw;
   height: 10vh;
-  color: #FFFFFF; 
-  background-color: #C49792;
+  color: var(--textColor); 
+  background-color: var(--primaryColor);
   display: flex;
   justify-content: center;
   align-items: center;

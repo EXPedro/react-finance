@@ -6,7 +6,7 @@ const Padlock = () => {
     <>
     <div className='padlock'>
       <img 
-        src='./images/cadeado_branco.svg' 
+        src='./images/cadeado_azul.svg' 
         alt='Cadeado' 
         width='85px' 
         height='auto' 
