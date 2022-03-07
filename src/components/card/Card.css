@@ -3,31 +3,32 @@
   height: auto;
   background-color: var(--secondaryColor);
   border-radius: 12px;
-  padding: 12px;
+  padding: 8px;
   text-align: center;
   color: var(--primaryColor);
   display: flex;
   flex-direction: column;
 }
 
-.ticker{
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.ordering{
+.grid-card{
   display: grid;
   grid-template-areas: 
+    'ticker ticker'
     'quantidade pm'
     'quantidade atual'
     'endline endline';
   align-items: center;  
 }
 
+.ticker{
+  grid-area: ticker;
+  font-size: 2em;
+  font-weight: bold;
+}
+
 .quantidade{
   grid-area: quantidade;
   font-size: 2em;
-
 }
 
 .pm{
