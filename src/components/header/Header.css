@@ -5,7 +5,7 @@ h1{
 .header{ 
   width: 100vw;
   height: 10vh;
-  color: var(--textColor); 
+  color: var(--secondaryColor); 
   background-color: var(--primaryColor);
   display: flex;
   justify-content: center;

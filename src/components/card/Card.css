@@ -1,0 +1,48 @@
+.card{
+  width: 235px;
+  height: auto;
+  background-color: var(--secondaryColor);
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+  color: var(--primaryColor);
+  display: flex;
+  flex-direction: column;
+}
+
+.ticker{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.ordering{
+  display: grid;
+  grid-template-areas: 
+    'quantidade pm'
+    'quantidade atual'
+    'endline endline';
+  align-items: center;  
+}
+
+.quantidade{
+  grid-area: quantidade;
+  font-size: 2em;
+
+}
+
+.pm{
+  grid-area: pm;
+}
+
+.atual{
+  grid-area: atual;
+}
+
+.endline{
+  grid-area: endline;
+  text-align: end;
+}
+
+.no-margins{
+  margin: 0px;
+}

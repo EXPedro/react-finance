@@ -4,7 +4,7 @@ import './Padlock.css';
 const Padlock = () => {
   return(
     <>
-    <div className='padlock'>
+    <div className="padlock">
       <img 
         src='./images/cadeado_azul.svg' 
         alt='Cadeado' 
