@@ -6,11 +6,6 @@
   padding: 8px;
   text-align: center;
   color: var(--primaryColor);
-  display: flex;
-  flex-direction: column;
-}
-
-.grid-card{
   display: grid;
   grid-template-areas: 
     'ticker ticker'
