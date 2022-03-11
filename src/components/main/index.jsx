@@ -9,6 +9,16 @@ const Main = () => {
     <div className="main">
       <Padlock />
       <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>  
     </>
   )

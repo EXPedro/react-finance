@@ -1,6 +1,6 @@
 .card{
-  width: 235px;
-  height: auto;
+  width: 200px;
+  height: 136px;
   background-color: var(--secondaryColor);
   border-radius: 12px;
   padding: 8px;
@@ -9,9 +9,11 @@
   display: grid;
   grid-template-areas: 
     'ticker ticker'
+    'label-quantidade label-pm'
     'quantidade pm'
+    'quantidade label-atual'
     'quantidade atual'
-    'endline endline';
+    'variacao variacao';
   align-items: center;  
 }
 
@@ -21,21 +23,45 @@
   font-weight: bold;
 }
 
+.label-quantidade{
+  grid-area: label-quantidade;
+}
+
 .quantidade{
   grid-area: quantidade;
-  font-size: 2em;
+  font-size: 2.33em;
+  text-align: center;
+}
+
+.label-precos{
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.precos{
+  text-align: right;
+  padding-right: 8px;
+  font-size: 0.9em;
+}
+
+.label-pm{
+  grid-area: label-pm;
 }
 
 .pm{
   grid-area: pm;
 }
 
+.label-atual{
+  grid-area: label-atual;
+}
+
 .atual{
   grid-area: atual;
 }
 
-.endline{
-  grid-area: endline;
+.variacao{
+  grid-area: variacao;
   text-align: end;
 }
 

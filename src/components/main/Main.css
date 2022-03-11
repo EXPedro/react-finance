@@ -4,13 +4,22 @@ h2{
 
 .main{
   height: 90vh;
-  background-image: url('/public/images/bull_bear.jpg');
+
+  background-image: url('/public/images/bull_bear2.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+
   color: var(--textColor);
   background-color: var(--primaryColor);
+/*
   display: flex;
   justify-content: center;
   align-items: center;
+  */
+/*
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  gap: 8px;
+  */
 }
